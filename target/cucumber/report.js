@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7053760100,
+  "duration": 4286812100,
   "status": "passed"
 });
 formatter.background({
@@ -28,39 +28,15 @@ formatter.step({
   "name": "User should be on TechFios Page",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 6,
-  "name": "Verify setskybluebg Button exist",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "Verify setWhitebg Button exist",
-  "keyword": "And "
-});
 formatter.match({
   "location": "BGColorStepDefenition.user_should_be_on_TechFios_Page()"
 });
 formatter.result({
-  "duration": 1783587900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BGColorStepDefenition.verify_setskybluebg_Button_exist()"
-});
-formatter.result({
-  "duration": 143488800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BGColorStepDefenition.verify_setWhitebg_Button_exist()"
-});
-formatter.result({
-  "duration": 128078900,
+  "duration": 1523984400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
+  "line": 8,
   "name": "User should be able to set skyblue background color while clicking the button",
   "description": "",
   "id": "techfios-page-background-color-validation;user-should-be-able-to-set-skyblue-background-color-while-clicking-the-button",
@@ -68,41 +44,65 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 9,
+      "line": 7,
       "name": "@SkyBlue"
     }
   ]
 });
 formatter.step({
-  "line": 11,
-  "name": "User clicks setskybluebackground Button",
+  "line": 9,
+  "name": "Verify \"setskybluebg\" Button exists",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "User clicks \"setskybluebackground\" Button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "Background color will change to skyblue",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BGColorStepDefenition.user_clicks_setskybluebackground_Button()"
+  "arguments": [
+    {
+      "val": "setskybluebg",
+      "offset": 8
+    }
+  ],
+  "location": "BGColorStepDefenition.verify_Button_exists(String)"
 });
 formatter.result({
-  "duration": 176404300,
+  "duration": 191616000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "setskybluebackground",
+      "offset": 13
+    }
+  ],
+  "location": "BGColorStepDefenition.user_clicks_Button(String)"
+});
+formatter.result({
+  "duration": 154455400,
   "status": "passed"
 });
 formatter.match({
   "location": "BGColorStepDefenition.background_color_will_change_to_skyblue()"
 });
 formatter.result({
-  "duration": 166977600,
+  "duration": 166893000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1533153200,
+  "duration": 810990600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9151411100,
+  "duration": 2349414500,
   "status": "passed"
 });
 formatter.background({
@@ -117,39 +117,15 @@ formatter.step({
   "name": "User should be on TechFios Page",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 6,
-  "name": "Verify setskybluebg Button exist",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "Verify setWhitebg Button exist",
-  "keyword": "And "
-});
 formatter.match({
   "location": "BGColorStepDefenition.user_should_be_on_TechFios_Page()"
 });
 formatter.result({
-  "duration": 1128387500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BGColorStepDefenition.verify_setskybluebg_Button_exist()"
-});
-formatter.result({
-  "duration": 143848300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "BGColorStepDefenition.verify_setWhitebg_Button_exist()"
-});
-formatter.result({
-  "duration": 134586000,
+  "duration": 2487288300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 15,
+  "line": 14,
   "name": "User should be able to set skyWhite background color while clicking the button",
   "description": "",
   "id": "techfios-page-background-color-validation;user-should-be-able-to-set-skywhite-background-color-while-clicking-the-button",
@@ -157,14 +133,19 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 14,
+      "line": 13,
       "name": "@SkyWhite"
     }
   ]
 });
 formatter.step({
+  "line": 15,
+  "name": "Verify \"setWhitebg\" Button exists",
+  "keyword": "And "
+});
+formatter.step({
   "line": 16,
-  "name": "User clicks setwhitebackground Button",
+  "name": "User clicks \"setwhitebackground\" Button",
   "keyword": "When "
 });
 formatter.step({
@@ -173,21 +154,40 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BGColorStepDefenition.user_clicks_setwhitebackground_Button()"
+  "arguments": [
+    {
+      "val": "setWhitebg",
+      "offset": 8
+    }
+  ],
+  "location": "BGColorStepDefenition.verify_Button_exists(String)"
 });
 formatter.result({
-  "duration": 152337000,
+  "duration": 188401700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "setwhitebackground",
+      "offset": 13
+    }
+  ],
+  "location": "BGColorStepDefenition.user_clicks_Button(String)"
+});
+formatter.result({
+  "duration": 108969900,
   "status": "passed"
 });
 formatter.match({
   "location": "BGColorStepDefenition.background_color_will_change_to_skywhite()"
 });
 formatter.result({
-  "duration": 168471300,
+  "duration": 145248400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1829611100,
+  "duration": 800079300,
   "status": "passed"
 });
 });

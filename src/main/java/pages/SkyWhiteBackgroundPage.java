@@ -19,7 +19,7 @@ public class SkyWhiteBackgroundPage {
 	WebElement BACKGROUND_ELEMENT;
 	
 	public boolean verifybuttonExist() {
-		return WHITE_BUTTON_ELEMENT.isDisplayed();
+		return WHITE_BUTTON_ELEMENT.isDisplayed() && WHITE_BUTTON_ELEMENT.isEnabled();
 	}
 
 	public void clickWhiteButton() {

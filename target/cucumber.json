@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1783587900,
+              "duration": 1523984400,
               "status": "passed"
             },
             "line": 5,
@@ -20,30 +20,6 @@
               "location": "BGColorStepDefenition.user_should_be_on_TechFios_Page()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 143488800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Verify setskybluebg Button exist",
-            "match": {
-              "location": "BGColorStepDefenition.verify_setskybluebg_Button_exist()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 128078900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Verify setWhitebg Button exist",
-            "match": {
-              "location": "BGColorStepDefenition.verify_setWhitebg_Button_exist()"
-            },
-            "keyword": "And "
           }
         ]
       },
@@ -51,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 7053760100,
+              "duration": 4286812100,
               "status": "passed"
             },
             "match": {
@@ -59,14 +35,14 @@
             }
           }
         ],
-        "line": 10,
+        "line": 8,
         "name": "User should be able to set skyblue background color while clicking the button",
         "description": "",
         "id": "techfios-page-background-color-validation;user-should-be-able-to-set-skyblue-background-color-while-clicking-the-button",
         "after": [
           {
             "result": {
-              "duration": 1533153200,
+              "duration": 810990600,
               "status": "passed"
             },
             "match": {
@@ -79,22 +55,46 @@
         "steps": [
           {
             "result": {
-              "duration": 176404300,
+              "duration": 191616000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "User clicks setskybluebackground Button",
+            "line": 9,
+            "name": "Verify \"setskybluebg\" Button exists",
             "match": {
-              "location": "BGColorStepDefenition.user_clicks_setskybluebackground_Button()"
+              "arguments": [
+                {
+                  "val": "setskybluebg",
+                  "offset": 8
+                }
+              ],
+              "location": "BGColorStepDefenition.verify_Button_exists(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154455400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks \"setskybluebackground\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "setskybluebackground",
+                  "offset": 13
+                }
+              ],
+              "location": "BGColorStepDefenition.user_clicks_Button(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 166977600,
+              "duration": 166893000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "Background color will change to skyblue",
             "match": {
               "location": "BGColorStepDefenition.background_color_will_change_to_skyblue()"
@@ -104,7 +104,7 @@
         ],
         "tags": [
           {
-            "line": 9,
+            "line": 7,
             "name": "@SkyBlue"
           }
         ]
@@ -118,7 +118,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1128387500,
+              "duration": 2487288300,
               "status": "passed"
             },
             "line": 5,
@@ -127,30 +127,6 @@
               "location": "BGColorStepDefenition.user_should_be_on_TechFios_Page()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 143848300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Verify setskybluebg Button exist",
-            "match": {
-              "location": "BGColorStepDefenition.verify_setskybluebg_Button_exist()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 134586000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Verify setWhitebg Button exist",
-            "match": {
-              "location": "BGColorStepDefenition.verify_setWhitebg_Button_exist()"
-            },
-            "keyword": "And "
           }
         ]
       },
@@ -158,7 +134,7 @@
         "before": [
           {
             "result": {
-              "duration": 9151411100,
+              "duration": 2349414500,
               "status": "passed"
             },
             "match": {
@@ -166,14 +142,14 @@
             }
           }
         ],
-        "line": 15,
+        "line": 14,
         "name": "User should be able to set skyWhite background color while clicking the button",
         "description": "",
         "id": "techfios-page-background-color-validation;user-should-be-able-to-set-skywhite-background-color-while-clicking-the-button",
         "after": [
           {
             "result": {
-              "duration": 1829611100,
+              "duration": 800079300,
               "status": "passed"
             },
             "match": {
@@ -186,19 +162,43 @@
         "steps": [
           {
             "result": {
-              "duration": 152337000,
+              "duration": 188401700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify \"setWhitebg\" Button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "setWhitebg",
+                  "offset": 8
+                }
+              ],
+              "location": "BGColorStepDefenition.verify_Button_exists(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108969900,
               "status": "passed"
             },
             "line": 16,
-            "name": "User clicks setwhitebackground Button",
+            "name": "User clicks \"setwhitebackground\" Button",
             "match": {
-              "location": "BGColorStepDefenition.user_clicks_setwhitebackground_Button()"
+              "arguments": [
+                {
+                  "val": "setwhitebackground",
+                  "offset": 13
+                }
+              ],
+              "location": "BGColorStepDefenition.user_clicks_Button(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 168471300,
+              "duration": 145248400,
               "status": "passed"
             },
             "line": 17,
@@ -211,7 +211,7 @@
         ],
         "tags": [
           {
-            "line": 14,
+            "line": 13,
             "name": "@SkyWhite"
           }
         ]
