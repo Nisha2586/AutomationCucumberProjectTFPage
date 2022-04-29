@@ -1,13 +1,14 @@
 package steps;
 
+
 import org.junit.Assert;
-import org.junit.Before;
 import org.openqa.selenium.support.PageFactory;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
 import pages.SkyBlueBackgroundPage;
 import pages.SkyWhiteBackgroundPage;
 import pages.TestBase;
@@ -63,8 +64,13 @@ public class BGColorStepDefenition extends TestBase{
 		@Then("^Background color will change to skywhite$")
 		public void background_color_will_change_to_skywhite() throws Throwable {
 			String actualBGBolor =skyWhiteBackgroundPage.verifyBGcolorChange();
-			String expectedAttribute = "background-color: skyblue;";
+			String expectedAttribute = "background-color: white;";
 			Assert.assertEquals(expectedAttribute, actualBGBolor);
+		}
+		@After
+		public static void tearDown() {
+			driver.close();
+			driver.quit();
 		}
 
 }

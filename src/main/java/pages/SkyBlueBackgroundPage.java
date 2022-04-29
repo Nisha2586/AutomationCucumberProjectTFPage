@@ -12,7 +12,7 @@ public class SkyBlueBackgroundPage {
 		this.driver = driver;
 	}
 
-	@FindBy(how = How.XPATH, using = "/button[contains(text(),'Set SkyBlue Background')]")
+	@FindBy(how = How.XPATH, using = "//button[contains(text(),'Set SkyBlue Background')]")
 	WebElement SKYBLUE_BUTTON_ELEMENT;// *[@id="extra"]/button[1]
 	@FindBy(how = How.XPATH, using = " //body")
 	WebElement BACKGROUND_ELEMENT;

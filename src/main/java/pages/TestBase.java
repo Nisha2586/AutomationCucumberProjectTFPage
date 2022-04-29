@@ -19,9 +19,5 @@ public class TestBase {
 
 	}
 
-	@After
-	public static void tearDown() {
-		driver.close();
-		driver.quit();
-	}
+
 }
